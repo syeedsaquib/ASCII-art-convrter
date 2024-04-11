@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ascii Art Converter</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+        <h1>Ascii Art Converter</h1>
+
+    <label for="picture">
+        <img src="cloud-icon.svg" alt="cloud-icon">
+        <a for="picture">Chose file</a>
+    </label>
+    <input type="file" name="picture" id="picture" accept="only png,jpg" draggable="true">
+    <canvas id="preview" style="display: none;"></canvas>
+    <pre id="ascii"></pre>
+    <a id="btn" href="https://github.com/syeedsaquib/Image-to-ascii-art-converter"><button>Source Code</button></a>
+  
+    <script src="./src/index.js"></script>
+</body>
+</html>
